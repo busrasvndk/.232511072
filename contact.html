@@ -1,0 +1,64 @@
+
+<body>
+
+    <h1>Tatil Değerlendirme</h1>
+
+<form action="">
+    <form action="" method="post">
+        <label for="name">İsim:</label><br>
+        <input type="text" id="name" name="name">
+    </form>
+
+<form action="">
+        <label for="email">E-posta:</label><br>
+        <input type="email" id="email" name="email">
+    </form>
+<form action="">
+        <label for="message">Görüşleriniz:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+    </form>
+<form action="">
+        <input type="submit" value="GÖNDER">
+        <input type="reset" value="TEMİZLE">
+    </form>
+
+    </form><br><br>
+
+
+
+
+     <h2>İletişim Adresleri</h2>
+
+   <form action="">
+    <label for="name">İsim:</label><br>
+        <input type="text" id="name" name="name" value="BÜŞRA SEVİNDİK" readonly>
+    </form>
+
+    <form action="">
+        <label for="email">E-posta:</label><br>
+        <input type="email" id="email" name="email" value="sevindik.busra@ogr.ahievran.edu.tr" readonly>
+    </form>
+
+    <form action="">
+     
+        <label for="numara">TELEFON:</label><br>
+        <input type="tel" id="tel" name="numara" value="05010121265" readonly>
+
+    </form>
+
+    <form onsubmit="confirmInput()" action="https://www.grandoriatours.com/tr/turkiyenin-en-iyi-10-turistik-yeri">
+       bilgi almak için lütfen adınızı giriniz: <br><input id="fname" type="text" size="20" onchange="upperCase()">
+        <input type="submit">
+    </form>
+
+<input type="text" id="nameinput" placeholder="isminizi girin">
+<button onclick="saveName()">kaydet</button>
+<button onclick="showName()">göster</button>
+<p id="savedName"></p>
+
+</body>
+
+
+  
+
+   
